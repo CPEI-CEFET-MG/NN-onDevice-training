@@ -3,16 +3,11 @@ import numpy as np
 
 taxas = [0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.1, 0.12, 0.15, 0.2, 0.25, 0.28]
 
-'''mse_sem_reg = [15.910409, 0.073032, 19.365642, 10.700440, float('nan'), float('nan'), float('nan'), float('nan'), float('nan'),
+mse_sem_reg = [15.910409, 0.073032, 19.365642, 10.700440, float('nan'), float('nan'), float('nan'), float('nan'), float('nan'),
                float('nan'), float('nan'), float('nan'), float('nan'), float('nan')]
 
 mse_com_reg = [16.011359, 0.086586, 19.395846, 11.616592, 56.086361, 12.649248, 5.624026, 4.281715, 23.569748,
-               3.230303, 21.279254, 15.709958, 0.000381, float('nan')]'''
-
-mse_sem_reg = [0.41420946534883724, 0.07303249039215687, 3.4714284682608696, 0.7653159943181819, float('nan'), float('nan'), float('nan'), float('nan'), float('nan'), float('nan'), float('nan'), float('nan'), float('nan'), float('nan')]
-
-mse_com_reg = [0.265164, 0.086586, 2.997070, 0.009319, 0.003099, 0.590766, 0.010109, 0.007702, 0.394876, 0.002406, 0.024213, 0.001678, 0.00038, float('nan')]
-
+               3.230303, 21.279254, 15.709958, 0.000381, float('nan')]
 LIMITE = 100
 
 def tratar(lista):
